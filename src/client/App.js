@@ -20,14 +20,9 @@ const App = () => {
 
   return (
     <div>
-
-      {step === 1 && (
-        <>
-          {username ? <h3>{`Hello ${username} please complete the following survey`}</h3> : <h3>Loading.. please wait!</h3>}
-        </>
-      )}
       {step === 1 && (
         <div>
+          {username ? <h3>{`Hello ${username} please complete the following survey`}</h3> : <h3>Loading.. please wait!</h3>}
           <FormInput label="Title" id="title" val={title} setVal={val => setTitle(val)} required />
           <FormInput label="Name" id="name" val={name} setVal={val => setName(val)} required />
           <FormInput label="Date of birth" id="dob" val={dob} setVal={val => setDob(val)} type="date" required />

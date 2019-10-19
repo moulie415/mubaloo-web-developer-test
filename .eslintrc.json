@@ -15,6 +15,5 @@
     "object-curly-spacing":  "off",
     "no-alert":"off",
     "brace-style":"off"
-
   }
 }
