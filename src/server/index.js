@@ -10,6 +10,9 @@ app.use(express.json())
 app.get('/api/getUsername', (req, res) => res.send({ username: os.userInfo().username }))
 
 // log survey to console
-app.post('/api/submitForm', req => console.log(req.body))
+app.post('/api/submitSurvey', (req, res) => {
+  console.log(req.body)
+  res.send()
+})
 
 app.listen(process.env.PORT || 8080, () => console.log(`Listening on port ${process.env.PORT || 8080}!`))

@@ -1,25 +1,67 @@
 $mubaloo-blue: #208ead;
+$border-color: #b2b2b2;
+$label-color: #b2b2b2;
+$label-font-size: 15px;
+$input-font-size: 22px;
 
-h1 {
+h3 {
   color: $mubaloo-blue;
 }
 
 body {
   font-family: sans-serif;
   margin: auto;
+  font-size: 20px;
 }
 
 input {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  border: 0px;
+  border-bottom: 1px solid $border-color;
+  font-size: $input-font-size;
+  font-family: sans-serif;
 }
 
 div {
-  margin-left: 5px;
+  margin: 0 5px 0 5px;
 }
 
 button {
   color: white;
   background-color: $mubaloo-blue;
+  border: 0px;
+  padding: 10px;
+  font-size: 20px;
+   &:active,
+   &:hover,
+   &:focus {
+     color: $mubaloo-blue;
+     background-color: white;
+     border: 1px solid $mubaloo-blue;
+   }
 }
 
+.submit {
+  float: right;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+label {
+  color: $label-color;
+  font-size: $label-font-size;
+}
+
+textarea {
+  border: 1px solid $border-color;
+  display: block;
+  font-size: $input-font-size;
+  margin-bottom: 20px;
+}
+
+.step2 {
+  margin-top: 20px
+}
