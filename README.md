@@ -1,6 +1,6 @@
 # Mubaloo web developer test
 
-Single page survey application running `React` on the frontend and `Node.js`/`Express` on the backend, frontend is built using webpack and uses `Sass` for styling.
+Single page survey application running `React` on the frontend and `Node.js`/`Express` on the backend, frontend is built using `Webpack` and uses `Sass` for styling.
 
 To run make sure to install dependencies first
 
