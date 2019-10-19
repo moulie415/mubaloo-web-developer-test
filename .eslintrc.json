@@ -9,6 +9,10 @@
     "no-console": "off",
     "comma-dangle": "off",
     "react/jsx-filename-extension": "off",
-    "semi":"off"
+    "semi": "off",
+    "arrow-body-style": "off",
+    "object-curly-newline": "off",
+    "object-curly-spacing":  "off"
+
   }
 }
